@@ -57,4 +57,8 @@ public class Car extends Vehicle {
     public int getCurrentSpeed() {
         return super.getCurrentSpeed();
     }
+    public int getSeats() {
+        return this.seats;
+    }
+
 }
